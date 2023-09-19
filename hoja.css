@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Aqui va el code de la pagina*/
+
+/*Aqui empieza el menu*/
+.icon img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.icon h1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.menu ol{
+    list-style: none;
+    font-size: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    transition: all 0.5s;
+    font-weight: bold;
+    font-size: 25px;
+    color: brown;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+/*Aqui termina el menu*/
+
+
+/*Aqui empieza el codigo del body*/
+
+.sobre_mi{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-top: 75px;
+    width: 1200px;
+    text-align: justify;
+    margin-left: auto;
+}
+.sobre_mi hr{
+    width: 150px;
+    height: 3px;
+    background: red;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.resumen{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-left: 75px;
+    margin-right: 50px;
+    margin-top: 75px;
+}
+.resumen p{
+    text-align: justify;
+}
+.resumen article{
+    border: solid 1px #808B96;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+.portafolio{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.portafolio img{
+    width: 300px;
+}
+
+/*Aqui termina el code el body*/
+
+
+/*Aqui empieza el pie de pagina*/
+
+footer{
+    font-size: 20px;
+    text-align: center;
+    background: #5D6D7E;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #D7DBDD;
+}
+
+/*Aqui termina el pie de pagina*/
+
+/*Aqui termina el code de la pagina*/
